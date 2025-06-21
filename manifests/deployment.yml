@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: mtbirlamcsautomobile 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mtbirlamcsautomobile
+  template:
+    metadata:
+      labels:
+        app: mtbirlamcsautomobile 
+    spec:
+      containers:
+        - name: mtbirlamcsautomobile 
+          image: mcstest-b3ftbyb9hwevgfbr.azurecr.io/mtbirlamcsautomobile
+          ports:
+          - containerPort: 8080
