@@ -1,0 +1,6 @@
+@MCSAutomobile_HostAddress = http://localhost:5139
+
+GET {{MCSAutomobile_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
