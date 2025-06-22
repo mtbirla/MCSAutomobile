@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MCSAutomobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9578b76bb8dff3fec86af9b78180260ab91dd02")]
 [assembly: System.Reflection.AssemblyProductAttribute("MCSAutomobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MCSAutomobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
